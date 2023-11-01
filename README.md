@@ -102,10 +102,10 @@ Returns a response containing details of all recent matches of a team
 </details>
 
 
-- Wrap the `Loader` component with an HTML container element and add the `data-testid` attribute value as `loader` to it as shown below
+- `Loader` component
 
   ```jsx
-  <div data-testid="loader">
+  <div>
     <Loader type="Oval" color="#ffffff" height={50} width={50} />
   </div>
   ```
